@@ -1,0 +1,33 @@
+body {
+	font-family: Arial, sans-serif;
+}
+
+h1 {
+	text-align: center;
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+input, button {
+	margin: 5px;
+}
+
+#input-boxes {
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+input[type=number] {
+	width: 50px;
+}
+
+#result {
+	margin-top: 20px;
+	font-size: 18px;
+	font-weight: bold;
+}
